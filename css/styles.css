@@ -1,3 +1,12 @@
+
+
+h1, h2, h3, h4, h5, h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -8,8 +17,9 @@ body {
 
 .hero-color {
   background-color: #2e2f42;
-  padding: 120px 0;
   text-align: center;
+  justify-content: center;
+  
 }
 
 .hero {
@@ -18,6 +28,10 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
+  margin-bottom: 48px;
+ 
+ 
 }
 
 .a-link {
@@ -46,8 +60,7 @@ body {
   cursor: pointer;
   font-size: 16px;
   letter-spacing: 0.04em;
-  line-height: 1.5;
-  
+  line-height: 1.5;  
 }
 
 ul, ol {
@@ -75,6 +88,7 @@ ul, ol {
 
 .logo-web {
   color: #4d5ae5;
+  margin-left: 156px;
 }
 
 
@@ -90,5 +104,111 @@ ul, ol {
   line-height: 1.11;
   font-size: 36px;
   letter-spacing: 0.02em;
-  text-align: center;
+}
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+     padding: 0 15px; 
+}
+
+.section {
+    padding: 120px 0;
+    display: flex;
+   
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section-port li {
+border-bottom: 1px solid #E7E9FC;
+border-right: 1px solid #E7E9FC;;
+border-left: 1px solid #E7E9FC; 
+}
+
+
+.section-port{
+    justify-content: space-between;
+    
+}
+
+.headHero{
+    border-bottom: 1px solid #E7E9FC;
+
+      
+}
+
+
+.container-header{
+    display: flex;
+    align-items: center;
+    width: 1440px;
+    height: 72px;
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+  margin-left: 156px;
+  padding: 20px;
+}
+
+
+
+nav {
+  gap: 40px;
+}
+
+address ul {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  
+}
+
+address {
+  margin-left: auto; 
+   display: flex;
+   align-items: center;
+  gap: 40px;
+}
+
+.hero-color .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+}
+
+
+
+.section-features ul {
+  display: flex;
+  gap: 24px;
+ justify-content: space-between; 
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-direction:inherit;
+}
+
+.section-features li {
+  width: 264px;
+  flex-direction: column;
+  margin-top: 100px;
+ 
+  
 }

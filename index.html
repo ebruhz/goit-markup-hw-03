@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Second Project</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css"
@@ -20,142 +20,164 @@
   </head>
 
   <body>
-    <header>
-      <a class="logo" href="./index.html"
-        ><span class="logo-web">Web</span>Studio</a
-      >
-      <nav>
-        <ul>
-          <li><a href="#Studio" class="a-link">Studio</a></li>
-          <li><a href="#Portfolio" class="a-link">Portfolio</a></li>
-          <li><a href="#Contacts" class="a-link">Contacts</a></li>
-        </ul>
-      </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com" class="a-link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="a-link">+11 (000) 111-11-11</a>
-          </li>
-        </ul>
-      </address>
+    <!-- HEADER -->
+    <header class="headHero">
+      <div class="container-header">
+        <a class="logo" href="./index.html">
+          <span class="logo-web">Web</span>Studio
+        </a>
+
+        <nav>
+          <ul>
+            <li><a href="#Studio" class="a-link">Studio</a></li>
+            <li><a href="#Portfolio" class="a-link">Portfolio</a></li>
+            <li><a href="#Contacts" class="a-link">Contacts</a></li>
+          </ul>
+        </nav>
+
+        <address>
+          <ul>
+            <li>
+              <a href="mailto:info@devstudio.com" class="a-link">
+                info@devstudio.com
+              </a>
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="a-link">
+                +11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
+
     <main>
-      <section class="hero-color">
-        <h1 class="hero">Effective Solutions <br />for Your Business</h1>
-        <button type="button" class="order-button">Order Service</button>
-      </section>
-      <section>
-        <h2 class="header-2">Our Features</h2>
-        <ul>
-          <li>
-            <h3 class="header-3">Strategy</h3>
-            <p>
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="header-3">Punctuality</h3>
-            <p>
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="header-3">Diligence</h3>
-            <p>
-              Research and confirm brands with the strongest digital growth
-              opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="header-3">Technologies</h3>
-            <p>
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section class="team-one">
-        <h2 class="header-2">Our Team</h2>
-        <ul>
-          <li>
-            <img src="images/img (3).jpg" alt="Mark Guerrero" width="264" />
-            <h3 class="header-3">Mark Guerrero</h3>
-            <p>Product Designer</p>
-          </li>
-          <li>
-            <img src="images/img (2).jpg" alt="Tom Ford" width="264" />
-            <h3 class="header-3">Tom Ford</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li>
-            <img src="images/img (1).jpg" alt="Camila Garcia" width="264" />
-            <h3 class="header-3">Camila Garcia</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img src="images/img.jpg" alt="Daniel Wilson" width="264" />
-            <h3 class="header-3">Daniel Wilson</h3>
-            <p>UI Designer</p>
-          </li>
-        </ul>
+      <!-- HERO -->
+      <section class="hero-color section">
+        <div class="container">
+          <h1 class="hero">Effective Solutions <br />for Your Business</h1>
+          <button type="button" class="order-button">Order Service</button>
+        </div>
       </section>
 
-      <section>
-        <h2 class="header-2">Our Portfolio</h2>
-        <ul>
-          <li>
-            <img src="images/deneme (3).jpg" alt="market" width="360" />
-            <h3 class="header-3">Cashless Payment</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img src="images/deneme (5).jpg" alt="banking" width="360" />
-            <h3 class="header-3">Banking App</h3>
-            <p>App</p>
-          </li>
+      <!-- FEATURES -->
+      <section class="section-features">
+        <div class="container">
+          <h2 class="visually-hidden">Our Features</h2>
+          <ul>
+            <li>
+              <h3 class="header-3">Strategy</h3>
+              <p>
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
+            <li>
+              <h3 class="header-3">Punctuality</h3>
+              <p>
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li>
+              <h3 class="header-3">Diligence</h3>
+              <p>
+                Research and confirm brands with the strongest digital growth
+                opportunities and minimize risk.
+              </p>
+            </li>
+            <li>
+              <h3 class="header-3">Technologies</h3>
+              <p>
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-          <li>
-            <img src="images/deneme (4).jpg" alt="app" width="360" />
-            <h3 class="header-3">Meditation App</h3>
-            <p>App</p>
-          </li>
+      <!-- TEAM -->
+      <section class="team-one section">
+        <div class="container">
+          <h2 class="header-2">Our Team</h2>
+          <ul>
+            <li>
+              <img src="images/img (3).jpg" alt="Mark Guerrero" width="264" />
+              <h3 class="header-3">Mark Guerrero</h3>
+              <p>Product Designer</p>
+            </li>
+            <li>
+              <img src="images/img (2).jpg" alt="Tom Ford" width="264" />
+              <h3 class="header-3">Tom Ford</h3>
+              <p>Frontend Developer</p>
+            </li>
+            <li>
+              <img src="images/img (1).jpg" alt="Camila Garcia" width="264" />
+              <h3 class="header-3">Camila Garcia</h3>
+              <p>Marketing</p>
+            </li>
+            <li>
+              <img src="images/img.jpg" alt="Daniel Wilson" width="264" />
+              <h3 class="header-3">Daniel Wilson</h3>
+              <p>UI Designer</p>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-          <li>
-            <img src="images/deneme (2).jpg" alt="taxi" width="360" />
-            <h3 class="header-3">Taxi Service</h3>
-            <p>Marketing</p>
-          </li>
-
-          <li>
-            <img src="images/deneme (6).jpg" alt="Design" width="360" />
-            <h3 class="header-3">Screen Illustrations</h3>
-            <p>Design</p>
-          </li>
-
-          <li>
-            <img src="images/deneme (1).jpg" alt="online" width="360" />
-            <h3 class="header-3">Online Courses</h3>
-            <p>Marketing</p>
-          </li>
-        </ul>
+      <!-- PORTFOLIO -->
+      <section class="section-port">
+        <div class="container">
+          <h2 class="header-2">Our Portfolio</h2>
+          <ul>
+            <li>
+              <img src="images/deneme (3).jpg" alt="market" width="360" />
+              <h3 class="header-3">Cashless Payment</h3>
+              <p>Marketing</p>
+            </li>
+            <li>
+              <img src="images/deneme (5).jpg" alt="banking" width="360" />
+              <h3 class="header-3">Banking App</h3>
+              <p>App</p>
+            </li>
+            <li>
+              <img src="images/deneme (4).jpg" alt="app" width="360" />
+              <h3 class="header-3">Meditation App</h3>
+              <p>App</p>
+            </li>
+            <li>
+              <img src="images/deneme (2).jpg" alt="taxi" width="360" />
+              <h3 class="header-3">Taxi Service</h3>
+              <p>Marketing</p>
+            </li>
+            <li>
+              <img src="images/deneme (6).jpg" alt="Design" width="360" />
+              <h3 class="header-3">Screen Illustrations</h3>
+              <p>Design</p>
+            </li>
+            <li>
+              <img src="images/deneme (1).jpg" alt="online" width="360" />
+              <h3 class="header-3">Online Courses</h3>
+              <p>Marketing</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
+
+    <!-- FOOTER -->
     <footer class="footer">
-      <a class="logo" href="./index.html"
-        ><span class="logo-web">Web</span>Studio</a
-      >
-      <p>
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <a class="logo" href="./index.html">
+          <span class="logo-web">Web</span>Studio
+        </a>
+        <p>
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
