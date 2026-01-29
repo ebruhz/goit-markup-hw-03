@@ -202,7 +202,7 @@ address {
   margin: 0;
   padding: 0;
   list-style: none;
-  flex-direction:inherit;
+  flex-direction:inherit
 }
 
 .section-features li {
@@ -211,4 +211,10 @@ address {
   margin-top: 100px;
  
   
+}
+
+
+.teamOne-section ul{
+  display: flex;
+  justify-content: space-between;
 }
