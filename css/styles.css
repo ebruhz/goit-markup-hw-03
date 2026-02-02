@@ -56,7 +56,7 @@ body {
 .container-header {
   display: flex;
   align-items: center;
-  max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
   padding: 24px;
 }
@@ -99,7 +99,7 @@ address ul {
 
 .logo-web {
   color: #4d5ae5;
-  margin-left: 156px;
+  
 }
 
 .logo-footer {
@@ -184,6 +184,7 @@ address ul {
 
 .section-features li p {
   letter-spacing: 0.02em;
+  
 }
 
 /*=========== TEAM SECTION ============= */
@@ -212,7 +213,6 @@ address ul {
 .teamOne-section li img {
   width: 264px;
   height: auto;
-  
 }
 
 .teamOne-section p {
@@ -220,7 +220,11 @@ address ul {
   text-align: center;
   line-height: 1.5;
   font-size: 16px;
+  font-weight: 400;
+
+    
 }
+
 
 /* ======== PORTFOLIO SECTION =========== */
 .section {
@@ -248,7 +252,6 @@ address ul {
 .section-port li img {
   width: 360px;
   height: auto;
- 
 }
 
 /* =========== HEADINGS ========== */
@@ -266,7 +269,22 @@ address ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   background-color: white;
+      
 }
+
+.team-card-content{
+  padding: 32px 16px;
+  
+ 
+}
+
+.portfolio-card-content{
+  padding: 32px 16px;
+ }
+
+ .pTitle{
+  margin-top: 8px;
+ }
 
 /*============ FOOTER ============ */
 .footer {
