@@ -99,7 +99,6 @@ address ul {
 
 .logo-web {
   color: #4d5ae5;
-  
 }
 
 .logo-footer {
@@ -184,7 +183,6 @@ address ul {
 
 .section-features li p {
   letter-spacing: 0.02em;
-  
 }
 
 /*=========== TEAM SECTION ============= */
@@ -221,10 +219,7 @@ address ul {
   line-height: 1.5;
   font-size: 16px;
   font-weight: 400;
-
-    
 }
-
 
 /* ======== PORTFOLIO SECTION =========== */
 .section {
@@ -269,22 +264,19 @@ address ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   background-color: white;
-      
 }
 
-.team-card-content{
+.team-card-content {
   padding: 32px 16px;
-  
- 
 }
 
-.portfolio-card-content{
+.portfolio-card-content {
   padding: 32px 16px;
- }
+}
 
- .pTitle{
+.pTitle {
   margin-top: 8px;
- }
+}
 
 /*============ FOOTER ============ */
 .footer {
